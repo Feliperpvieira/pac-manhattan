@@ -4,6 +4,7 @@ Desafio inicial da disciplina DSG1432 - Computação para Jogos, do professor Le
 **COMO ABRIR O JOGO:**
 Com o repositório clonado ou baixado no seu computador, no Unity Hub vá em "Add" e selecione a pasta "Roll a Ball", dentro da pasta "arrasa-quarteirao".
 
+----------
 
 **CRÉDITOS e ORGANIZAÇÃO DE PASTAS:**
 ### Arrasa Quarteirão (ABANDONADO):
