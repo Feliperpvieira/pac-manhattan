@@ -17995,6 +17995,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1861255438}
+  - component: {fileID: 1861255439}
   m_Layer: 0
   m_Name: Pick Ups
   m_TagString: Untagged
@@ -18041,6 +18042,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1861255439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861255437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07232f91802b1924e8ee9f2badcade8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemPrefab: {fileID: 5698591134821259079, guid: a0787b8c807677443a59f4723e3be71f,
+    type: 3}
+  center: {x: 0, y: 0, z: 0}
+  size: {x: 35.5, y: 0, z: 18.5}
 --- !u!4 &1861995157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5698591134821259098, guid: a0787b8c807677443a59f4723e3be71f,
