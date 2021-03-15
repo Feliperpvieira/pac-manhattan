@@ -9,11 +9,16 @@ public class PlayerController : MonoBehaviour
     public Text countText;
     public Text winText;
 
+    public GameObject DeathMenu, PointsScore;
+
     private Rigidbody rb;
     private int count;
 
     void Start()
     {
+        DeathMenu.SetActive(false);
+        PointsScore.SetActive(true);
+
         rb = GetComponent<Rigidbody>();
         count = 0;
         SetCountText();
@@ -46,5 +51,15 @@ public class PlayerController : MonoBehaviour
        
         winText.text = count.ToString();
         
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag.Equals("Enemy"))
+        {
+            DeathMenu.SetActive(true);
+            PointsScore.SetActive(false);
+            gameObject.SetActive(false);
+        }
     }
 }
