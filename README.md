@@ -8,13 +8,13 @@ Com o repositório clonado ou baixado no seu computador, no Unity Hub vá em "Ad
 
 CRÉDITOS e ORGANIZAÇÃO DE PASTAS:
 
-- Arrasa Quarteirão (ABANDONADO):
+#####- Arrasa Quarteirão (ABANDONADO):
 
 Jogo NÃO funcional, feito seguindo o início do tutorial: https://noobtuts.com/unity/2d-pacman-game
 Abandonado pois o Pac-Man ficava fixo em qualquer parede que encostasse, sem correções conhecidas.
 
 
-- Roll a Ball (JOGO DESENVOLVIDO): 
+#####- Roll a Ball (JOGO DESENVOLVIDO): 
 
 Jogo FUNCIONAL desenvolvido usando uma mistura de diversos tutoriais e algumas personalizações próprias.
 
