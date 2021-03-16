@@ -1,4 +1,4 @@
-# arrasa-quarteirao
+# Pac-Manhattan
 Desafio inicial da disciplina DSG1432 - Computação para Jogos, do professor Leonardo Cardarelli.
 
 **COMO ABRIR O JOGO:**
