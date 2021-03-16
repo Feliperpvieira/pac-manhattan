@@ -14,6 +14,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private int count;
 
+    //Spawn items:
+    public GameObject ItemPrefab;
+    public Vector3 center;
+    public Vector3 size;
+
+
     void Start()
     {
         DeathMenu.SetActive(false);
@@ -41,7 +47,24 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             count = count + 1;
+
+            if (count % 10 == 0)
+            {
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+                SpawnItem();
+            }
+
             SetCountText();
+
+            SpawnItem();
         }
     }
 
@@ -62,4 +85,11 @@ public class PlayerController : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    public void SpawnItem()
+    {
+        Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
+        Instantiate(ItemPrefab, pos, Quaternion.identity);
+    }
+
 }
