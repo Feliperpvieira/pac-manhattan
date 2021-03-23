@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #3a577d;
+}
+
+h1{
+    font-family: 'Jockey One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7em;
+    color: #fffd62;
+    text-shadow: 4px 4px 0px #000000;
+
+    margin-top: 1em;
+}
+
+.play-link{
+    text-align: center;
+    margin: auto;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    background-color: #00C6FF;
+    padding: 0.5em 1em;
+}
