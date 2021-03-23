@@ -8,7 +8,7 @@ Feito por Felipe Rabaça, João Pedro Mafra, Lucas Araujo e Vitor Ourô.
 Com o repositório clonado ou baixado no seu computador, no Unity Hub vá em "Add" e selecione a pasta "Pac-Manhattan", localizada dentro da pasta "pac-manhattan".
 
 **COMO JOGAR:**\
-Jogue online: https://feliperpv.me/pac-manhattan/play/ \
+Jogue online: https://feliperpv.me/pac-manhattan/ \
 Jogue no seu computador: faça o download da pasta [pac-manhattan.zip](https://github.com/Feliperpvieira/pac-manhattan/files/6190112/pac-manhattan.zip), extraia a pasta completa e execute o arquivo Pac-Manhatan.exe.
 
 ----------
