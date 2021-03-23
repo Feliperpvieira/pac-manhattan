@@ -10,6 +10,7 @@ Com o repositório clonado ou baixado no seu computador, no Unity Hub vá em "Ad
 
 **COMO JOGAR:**
 Jogue online: https://feliperpv.me/pac-manhattan/play/
+
 Jogue no seu computador: faça o download da pasta [pac-manhattan.zip](https://github.com/Feliperpvieira/pac-manhattan/files/6190112/pac-manhattan.zip), extraia a pasta completa e execute o arquivo Pac-Manhatan.exe.
 
 ----------
