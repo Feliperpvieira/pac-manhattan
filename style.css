@@ -68,3 +68,14 @@ footer{
     width: 10em;
     z-index: -10;
 }
+
+@media(max-width: 768px){
+    h1{
+        font-size: 5em;
+    }
+    
+    .buildings img{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+}
