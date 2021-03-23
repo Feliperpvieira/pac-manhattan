@@ -15,7 +15,7 @@ Jogue no seu computador: faça o download da pasta [pac-manhattan.zip](https://g
 
 **CRÉDITOS e ORGANIZAÇÃO DE PASTAS:**
 
-### Roll a Ball (JOGO DESENVOLVIDO): 
+### Pac-Manhattan: 
 Jogo **FUNCIONAL** desenvolvido usando uma mistura de diversos tutoriais e algumas personalizações próprias.
 
 Jogo base foi realizado usando o tutorial básico Roll a Ball, próprio da Unity: https://learn.unity.com/project/roll-a-ball-tutorial
@@ -26,3 +26,8 @@ Morte do jogador ao encostar no imimigo e menu de morte foram feitos com base ne
 
 
 Além disso, a criação deste GitHub para realização do trabalho em equipe foi feito utilizando o seguinte guia: https://youtu.be/qpXxcvS-g3g
+
+### play:
+Pasta com a versão web do jogo, hospedada no endereço https://feliperpv.me/pac-manhattan/play/ utilizando o GitHub Pages.
+
+No root, o arquivo index.html e style.css são referentes a página Web explicativa sobre o jogo, hospedada em https://feliperpv.me/pac-manhattan/
