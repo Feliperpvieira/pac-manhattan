@@ -27,7 +27,5 @@ Morte do jogador ao encostar no imimigo e menu de morte foram feitos com base ne
 
 Além disso, a criação deste GitHub para realização do trabalho em equipe foi feito utilizando o seguinte guia: https://youtu.be/qpXxcvS-g3g
 
-### play:
-Pasta com a versão web do jogo, hospedada no endereço https://feliperpv.me/pac-manhattan/play/ utilizando o GitHub Pages.
-
-No root, o arquivo index.html e style.css são referentes a página Web explicativa sobre o jogo, hospedada em https://feliperpv.me/pac-manhattan/
+### gh-pages:
+[Branch](https://github.com/Feliperpvieira/pac-manhattan/tree/gh-pages) com a versão web do jogo, hospedada no endereço https://feliperpv.me/pac-manhattan/ utilizando o GitHub Pages.
