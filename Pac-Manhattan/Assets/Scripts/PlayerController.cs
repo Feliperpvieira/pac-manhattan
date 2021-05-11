@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public Text countText;
     public Text winText;
+    public Text highscoreText;
 
     public GameObject DeathMenu, PointsScore;
 
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         count = 0;
         SetCountText();
-        winText.text = "";
+        winText.text = "0";
     }
 
     void FixedUpdate()
@@ -83,6 +84,13 @@ public class PlayerController : MonoBehaviour
             DeathMenu.SetActive(true);
             PointsScore.SetActive(false);
             gameObject.SetActive(false);
+
+            if (count > PlayerPrefs.GetInt("Highscore"))
+            {
+                PlayerPrefs.SetInt("Highscore", count);
+            }
+            
+            highscoreText.text = "High Score: " + PlayerPrefs.GetInt("Highscore", count).ToString();
         }
     }
 
