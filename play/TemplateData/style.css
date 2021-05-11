@@ -16,3 +16,54 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+*{
+    background-color: #3a577d;
+}
+
+.webgl-content{
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.webgl-content .footer{
+    background-color: rgb(255, 255, 255, 0);
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -5px;
+
+    z-index: -1;
+}
+
+.buildings{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(84,167,230,0.3) 100%);
+    z-index: -5;
+}
+
+.buildings img{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.buildings .bd-1{
+    width: 15em;
+    z-index: -10;
+}
+
+.buildings .bd-2{
+    width: 20em;
+    z-index: -10;
+}
+
+.buildings .bd-3{
+    width: 10em;
+    z-index: -10;
+}
