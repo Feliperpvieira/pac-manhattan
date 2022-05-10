@@ -8,7 +8,7 @@ Feito por Felipe Rabaça, João Pedro Mafra, Lucas Araujo e Vitor Ourô.
 Com o repositório clonado ou baixado no seu computador, no Unity Hub vá em "Add" e selecione a pasta "Pac-Manhattan", localizada dentro da pasta "pac-manhattan".
 
 **COMO JOGAR:**\
-Jogue online: https://feliperpv.me/pac-manhattan/ \
+Jogue online: https://feliperpv.com/pac-manhattan/ \
 Jogue no seu computador: faça o download da pasta [pac-manhattan.zip](https://github.com/Feliperpvieira/pac-manhattan/files/6190112/pac-manhattan.zip), extraia a pasta completa e execute o arquivo Pac-Manhatan.exe.
 
 ----------
@@ -16,7 +16,7 @@ Jogue no seu computador: faça o download da pasta [pac-manhattan.zip](https://g
 **CRÉDITOS e ORGANIZAÇÃO DE PASTAS:**
 
 ### Pac-Manhattan: 
-Jogo **FUNCIONAL** desenvolvido usando uma mistura de diversos tutoriais e algumas personalizações próprias.
+Jogo desenvolvido usando uma mistura de diversos tutoriais e algumas personalizações próprias.
 
 Jogo base foi realizado usando o tutorial básico Roll a Ball, próprio da Unity: https://learn.unity.com/project/roll-a-ball-tutorial
 
@@ -28,4 +28,4 @@ Morte do jogador ao encostar no imimigo e menu de morte foram feitos com base ne
 Além disso, a criação deste GitHub para realização do trabalho em equipe foi feito utilizando o seguinte guia: https://youtu.be/qpXxcvS-g3g
 
 ### gh-pages:
-[Branch](https://github.com/Feliperpvieira/pac-manhattan/tree/gh-pages) com a versão web do jogo, hospedada no endereço https://feliperpv.me/pac-manhattan/ utilizando o GitHub Pages.
+[Branch](https://github.com/Feliperpvieira/pac-manhattan/tree/gh-pages) com a versão web do jogo, hospedada no endereço https://feliperpv.com/pac-manhattan/ utilizando o GitHub Pages.
